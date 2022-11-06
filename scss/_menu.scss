@@ -31,3 +31,26 @@
   height: 20px;
   width: 28px;
 }
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.menu-nav {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  position: fixed;
+  right: 0;
+  z-index: 0;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: $primary-color;
+  @include transition-ease;
+  display: none;
+  padding-right: 100px;
+  list-style-type: none;
+  overflow: hidden;
+}

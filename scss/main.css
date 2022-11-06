@@ -54,6 +54,29 @@
   width: 28px;
 }
 
+.nav {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.menu-nav {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  position: fixed;
+  right: 0;
+  z-index: 0;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #272727;
+  transition: all 0.5s ease-in-out;
+  display: none;
+  padding-right: 100px;
+  list-style-type: none;
+  overflow: hidden;
+}
+
 body {
   background-color: #272727;
   color: #fff;
