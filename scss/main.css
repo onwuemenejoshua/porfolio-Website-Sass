@@ -25,6 +25,12 @@
   text-transform: uppercase;
 }
 
+nav {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+}
+
 .menu-btn {
   position: absolute;
   z-index: 1;
@@ -56,25 +62,33 @@
 
 .nav {
   display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-}
-
-.menu-nav {
-  display: flex;
   flex-direction: column;
   height: 100vh;
   position: fixed;
   right: 0;
   z-index: 0;
   justify-content: flex-start;
-  align-items: center;
   background-color: #272727;
   transition: all 0.5s ease-in-out;
   display: none;
   padding-right: 100px;
-  list-style-type: none;
-  overflow: hidden;
+}
+
+ul > li {
+  list-style: none;
+}
+
+ul > li a {
+  text-decoration: none;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  padding: 10px;
+  font-family: monospace;
+}
+
+ul > li a:hover {
+  color: coral;
 }
 
 body {
