@@ -67,5 +67,9 @@ ul > li a {
 }
 
 ul > li a:hover {
-  color: coral;
+  color: $secondary-color;
+}
+
+ul > li a:active {
+  background-color: blue;
 }

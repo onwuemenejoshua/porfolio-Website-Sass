@@ -1,6 +1,10 @@
 @import "config";
 @import "home";
 @import "menu";
+@import "about";
+@import "project";
+@import "contact";
+@import "responsive";
 
 body {
   background-color: $primary-color;
@@ -32,6 +36,10 @@ header {
     display: flex;
     flex-direction: row;
   }
+}
+
+.text-secondary {
+  color: $secondary-color;
 }
 
 main {
